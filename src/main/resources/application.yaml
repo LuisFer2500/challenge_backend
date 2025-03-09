@@ -1,0 +1,16 @@
+#spring.application.name=api-rest
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/historial
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  cache:
+    type: caffeine
+  caffeine:
+    spec: maximumSize=100,expireAfterWrite=30m
+
