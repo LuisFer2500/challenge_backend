@@ -17,7 +17,7 @@ Asegúrate de tener instalados en tu sistema:
 
 #**Ejecutar el Proyecto con Docker**
 1. **Clonar el repositorio**
-   git clone LuisFer2500/challenge_backend
+   git clone https://github.com/LuisFer2500/challenge_backend.git
 2. **Descargar la imagen de DockerHub**
 	https://hub.docker.com/r/luisrodriguez2506/desafio_backend
 3. **Construir el JAR con Maven**
